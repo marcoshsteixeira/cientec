@@ -1,6 +1,6 @@
 Este repositório contém o teste prático, com a docker e o projeto para as devidas avaliações de capacidade técnica.
 
-Ao inicializar a docker o banco de dados irá inicializar de forma automática com o banco de dados já criado.
+Ao inicializar a docker será necessário criar o banco de dados, para tanto busque o arquivo na pasta sql e execute na IDE de sua preferência (Ex.: HEIDISQL, MySQL Workbench), logo após fazer login com os dados fornecidos logo abaixo.
 
 # Docker e Docker Compose
 
