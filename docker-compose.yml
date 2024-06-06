@@ -1,9 +1,10 @@
-version: "3.1"
+#The version is commented as it's obsolete in docker v4.30.0, but it can be enabled if necessary to run on older versions of docker.
+#version: "3.3"
 
 services:
   apache:
-    build: ./
-    restart: always
+    build: apacheconf
+    restart: unless-stopped
     ports:
       - '80:80'
     volumes:
@@ -11,8 +12,8 @@ services:
     links:
       - mysql:mysql
   mysql:
-    image: mysql:latest
-    restart: always
+    build: mysqlconf
+    restart: unless-stopped
     volumes:
       - ./databases:/var/lib/mysql
     environment:

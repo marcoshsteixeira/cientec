@@ -1,6 +1,5 @@
-Este repositório contém o teste prático, com a docker e o projeto para as devidas avaliações de capacidade técnica.
-
-Ao inicializar a docker será necessário criar o banco de dados, para tanto busque o arquivo na pasta sql e execute na IDE de sua preferência (Ex.: HEIDISQL, MySQL Workbench), logo após fazer login com os dados fornecidos logo abaixo.
+Pequeno projeto PHP, usando Jquery, MySQL e Docker.
+Consiste na geração de um número NIS, evitando que o número se repita
 
 # Docker e Docker Compose
 
@@ -30,21 +29,4 @@ root
 **Password**
 ```txt
 root
-```
-
-# Localização do código fonte
-
-**Docker**
-```txt
-Raíz do projeto
-```
-
-**PHP**
-```txt
-Pasta html
-```
-
-**SQL**
-```txt
-Pasta sql
 ```
